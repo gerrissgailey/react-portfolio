@@ -3,6 +3,8 @@ import React from 'react'
 function Home() {
     return (
         <div>
+            <container>
+
             <section className="container bg-info card">
                 <div className="row">
                     <div className="col-sm-6 my-3">
@@ -21,6 +23,7 @@ function Home() {
                     </div>
                 </div>
             </section>
+            </container>
         </div>
     )
 }
