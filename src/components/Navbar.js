@@ -7,20 +7,20 @@ function Navbar() {
         <div>
 
             <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-                <Link className="navbar-brand text-white" href="/">Gerriss Gailey</Link>
+                <Link className="navbar-brand text-white" to="/">Gerriss Gailey</Link>
                 <div>
                     <ul className="nav nav-tabs justify-content-end mt-2 mt-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link text-white" href="./">About Me</Link>
+                            <Link className="nav-link text-white" to="./">About Me</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-white" href="./portfolio">Portfolio</Link>
+                            <Link className="nav-link text-white" to="./portfolio">Portfolio</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-white" href="./resume">Resume</Link>
+                            <Link className="nav-link text-white" to="./resume">Resume</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-white" href="./contact">Contact</Link>
+                            <Link className="nav-link text-white" to="./contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
