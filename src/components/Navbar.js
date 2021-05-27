@@ -11,16 +11,16 @@ function Navbar() {
                 <div>
                     <ul className="nav nav-tabs justify-content-end mt-2 mt-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link text-white" to="./">About Me</Link>
+                            <Link className="nav-link text-white" to="/">About Me</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-white" to="./portfolio">Portfolio</Link>
+                            <Link className="nav-link text-white" to="/portfolio">Portfolio</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-white" to="./resume">Resume</Link>
+                            <Link className="nav-link text-white" to="/resume">Resume</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-white" to="./contact">Contact</Link>
+                            <Link className="nav-link text-white" to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
