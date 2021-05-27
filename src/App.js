@@ -9,7 +9,7 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <Router basename="/react-portfolio">
+    <Router>
       <Navbar />
         <Route exact path="/contact">
           <Contact />
